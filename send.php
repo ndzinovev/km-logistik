@@ -18,7 +18,7 @@ $hel_bot = $_POST["usernamef"];
                  
     function send_mail($message){
         
-        $mail_to = "nfrezerv@yandex.ru"; // почта, на которую придет письмо
+        $mail_to = 'km-logis@yandex.ru, elenweb@narod.ru, m_kom@bk.ru'; // почта, на которую придет письмо
         // km-logis@yandex.ru, elena@platbars.ru           .$_SERVER['HTTP_REFERER']
         $subject = 'Обратная связь с сайта: Фулфилмент для маркетплейсов '; 
         $headers = "MIME-Version: 1.0\r\n";
